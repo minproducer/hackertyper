@@ -20,7 +20,7 @@ $(function() {
 const Typer = {
   text: null,
   index: 0, // vị trí con trỏ hiện tại
-  speed: 5, // tốc độ gõ, mặc định là 3 ký tự mỗi khi nhấn
+  speed: 50, // tốc độ gõ, mặc định là 3 ký tự mỗi khi nhấn
   file: '',
 
   init: () => {
